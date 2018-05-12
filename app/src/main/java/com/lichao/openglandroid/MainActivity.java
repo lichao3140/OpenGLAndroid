@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.lichao.openglandroid.image.SGLViewActivity;
 import com.lichao.openglandroid.render.FGLViewActivity;
 
 import java.util.ArrayList;
@@ -28,6 +29,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
         data = new ArrayList<>();
         add("绘制形体", FGLViewActivity.class);
+        add("图片处理", SGLViewActivity.class);
         recyclerView.setAdapter(new MenuAdapter());
     }
 
