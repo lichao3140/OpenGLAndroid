@@ -32,11 +32,19 @@
         </activity>
         <activity
             android:name=".render.FGLViewActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ChooseActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".image.SGLViewActivity"></activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".image.SGLViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vary.VaryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".camera.CameraActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

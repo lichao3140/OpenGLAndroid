@@ -31,6 +31,9 @@ public class ColorFilter extends AFilter {
         hChangeColor = GLES20.glGetUniformLocation(mProgram, "vChangeColor");
     }
 
+    /**
+     * 颜色处理封装枚举类
+     */
     public enum Filter{
         NONE(0,new float[]{0.0f,0.0f,0.0f}),
         GRAY(1,new float[]{0.299f,0.587f,0.114f}),
